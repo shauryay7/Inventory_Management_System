@@ -93,7 +93,7 @@ This project allows you to manage inventory data using XML upload, dynamic SQL t
 This deletes the record from `yks_item` and also removes the associated `yks_item_img` via item_key.
 
 ---
-## Use this Query for else the code will give errors
+## Use this Query for else the code will give errors (This is purchased_order table)
 ```
 CREATE TABLE IF NOT EXISTS purchased_order (
     order_id INT AUTO_INCREMENT PRIMARY KEY,
